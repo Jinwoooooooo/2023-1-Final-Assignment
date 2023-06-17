@@ -61,16 +61,19 @@ footer {
 }
 
 img {
-    width: 50%;
-    margin-top: 20px;
+    width: 10%;
+    margin-top: 40px;
 }
 
 section {
     border: 1px solid #bbb;
     width: 87.5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
 }
+
 
 article {
     text-align: center;
@@ -107,9 +110,13 @@ article {
 }
 
 .partint {
-    text-align: justify;
+    text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     margin: 25px;
+    margin-top: 70px;
     line-height: 25px;
     color: #505050;
+}
+.link {
+    color: #949494af;
 }

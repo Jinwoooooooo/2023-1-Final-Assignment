@@ -54,7 +54,9 @@ a {
 section {
     border: 1px solid #bbb;
     width: 87.5%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 footer {
@@ -64,4 +66,17 @@ footer {
     border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
+}
+
+video {
+    width: 35%;
+}
+
+.videotext {
+    text-align: justify;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    line-height: 30px;
 }
