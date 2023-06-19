@@ -67,15 +67,6 @@ section {
     text-align: center;
 }
 
-footer {
-    border: 1px solid #bbb;
-    display: flex;
-    justify-content: center;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-right-style: none;
-}
-
 .intro {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bold;
