@@ -37,19 +37,19 @@ p {
 }
 
 .nav:hover {
-    text-decoration: 2px underline rgb(185, 134, 56);
+    text-decoration: 2px underline #bbb;
     text-underline-offset : 10px;
 }
 
 .nav1 {
-    text-decoration: 2px underline #8ca1ff;
+    text-decoration: 2px underline #b073ff;
     text-underline-offset : 10px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
 .nav {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
@@ -64,27 +64,22 @@ section {
     width: 87.5%;
     display: flex;
     align-items: center;
-    flex-direction: row;
-}
-
-footer {
-    border: 1px solid #bbb;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-right-style: none;
 }
 
 video {
     width: 30%;
+    border-radius: 15px;
 }
 
 .videotext {
     text-align: justify;
     width: 30%;
-    padding: 20px;
-    border: 1px solid rgb(165, 165, 165);
-    border-radius: 10px;
-    line-height: 30px;
+    margin-top: 50px;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
 }

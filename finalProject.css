@@ -37,18 +37,18 @@ p {
 }
 
 .nav:hover {
-    text-decoration: 2px underline rgb(185, 134, 56);
+    text-decoration: 2px underline #bbb;
     text-underline-offset : 10px;
 }
 .nav {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
 .nav1 {
-    text-decoration: 2px underline #8ca1ff;
+    text-decoration: 2px underline #ff6464;
     text-underline-offset : 10px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
@@ -80,6 +80,7 @@ footer {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bold;
     font-size: 18px;
+    line-height: 30px;
 }
 
 img {

@@ -37,19 +37,19 @@ p {
 }
 
 .nav:hover {
-    text-decoration: 2px underline rgb(185, 134, 56);
+    text-decoration: 2px underline #bbb;
     text-underline-offset : 10px;
 }
 
 .nav1 {
-    text-decoration: 2px underline #8ca1ff;
+    text-decoration: 2px underline #ffe969;
     text-underline-offset : 10px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
 .nav {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
