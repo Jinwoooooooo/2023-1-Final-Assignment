@@ -88,6 +88,8 @@ img {
     border-bottom: 1px solid #bbb;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
 }
 
 .image-container {
