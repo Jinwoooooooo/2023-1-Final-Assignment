@@ -9,6 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+KR:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!---------------------------나눔 고딕--------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!---------------------------나눔 명조--------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <title>2023 컴퓨터소프트웨어 기말과제</title>
 </head>
 <body>
@@ -24,7 +32,36 @@
             <p class="nav"><a href="test.html">TEST</a></p>
         </nav>
         <section>
-                <p></p>
+                <p class="title">회로도</p>
+                <img src="Images/circuit.PNG">
+                <p class="circuit1">TinkerCad에 블루투스 모듈이 없어서 제외하고 그렸습니다.</p>
+            <hr>
+                <p class="title">코드</p>
+                <img src="Images/code1.png">
+                <img src="Images/code2.png">
+                <img src="Images/code3.png">
+                <hr>
+                <p class="title">코드 해석</p>
+                <p class="circuit">
+                    <p class="circuit">playBuzzer 함수는 주파수와 지속 시간을 인자로 받아 피에조 부저를 울리는 함수입니다.</p>
+                    <p class="circuit">setup 함수에서는 시리얼 통신과 핀 모드 설정, LCD 초기화, 블루투스 통신을 초기화합니다.</p>
+                    <p class="circuit">loop 함수는 계속 반복되면서 초음파 거리를 측정하고, 거리에 따라 동작을 수행합니다.</p>
+                    <p class="circuit">초음파를 발사하고 돌아온 시간을 측정하여 거리를 계산합니다.</p>
+                    <br>
+                    <p class="circuit">거리가 20cm 미만인 경우:</p>
+                    <p class="circuit">LED를 켜고, LCD에 "Open..."을 출력하며, 서보 모터를 90도 회전시킵니다.</p>
+                    <p class="circuit">playBuzzer 함수를 사용하여 피에조 부저를 울립니다.</p>
+                    <p class="circuit">일정 시간 동안 기다린 후 다음 동작을 수행합니다.</p>
+                    <br>
+                    <p class="circuit">거리가 20cm 이상인 경우:</p>
+                    <p class="circuit">LED를 끄고, LCD에 "Close..."를 출력하며, 서보 모터를 원래 위치로 돌아가게 합니다.</p>
+                    <p class="circuit">일정 시간 동안 기다린 후 다음 동작을 수행합니다.</p>
+                    <p class="circuit">블루투스 통신을 통해 입력이 있는지 확인하고, "O" 또는 "C"가 입력되면 openDoor 또는 closeDoor 함수를 호출하여 서보 모터를 제어합니다.</p>
+                    <p class="circuit">openDoor 함수는 서보 모터를 90도 회전시키고, LCD에 "Opened"를 출력합니다.</p>
+                    <p class="circuit">closeDoor 함수는 서보 모터를 원래 위치로 돌아가게 하고, LCD에 "Closed"를 출력합니다.</p>
+                    <p class="circuit">이 코드를 사용하면 초음파 센서로 거리를 감지하고, 거리에 따라 서보 모터를 제어하여 문을 열고 닫을 수 있으며, 블루투스 통신을 통해 외부에서 제어할 수도 있습니다.</p>
+                <br>    
+                <br>    
         </section>
     </div>
 </body>

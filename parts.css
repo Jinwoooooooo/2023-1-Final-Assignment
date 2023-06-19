@@ -44,6 +44,14 @@ p {
 .nav1 {
     text-decoration: 2px underline #8ca1ff;
     text-underline-offset : 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 a {
@@ -107,6 +115,7 @@ article {
 
 .partname {
     margin-top: 30px;
+    font-size: 25px;
 }
 
 .partint {
@@ -115,7 +124,6 @@ article {
     margin: 25px;
     margin-top: 70px;
     line-height: 25px;
-    color: #505050;
 }
 .link {
     color: #949494af;

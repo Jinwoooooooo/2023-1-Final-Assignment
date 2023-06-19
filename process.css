@@ -44,6 +44,14 @@ p {
 .nav1 {
     text-decoration: 2px underline #8ca1ff;
     text-underline-offset : 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 a {
@@ -52,9 +60,12 @@ a {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #bbb;
     width: 87.5%;
     text-align: center;
+    justify-content: center;
 }
 
 footer {
@@ -64,4 +75,8 @@ footer {
     border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
+}
+
+img {
+    height: 40%;
 }

@@ -40,10 +40,17 @@ p {
     text-decoration: 2px underline rgb(185, 134, 56);
     text-underline-offset : 10px;
 }
-
+.nav {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
 .nav1 {
     text-decoration: 2px underline #8ca1ff;
     text-underline-offset : 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 a {
@@ -52,6 +59,9 @@ a {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid #bbb;
     width: 87.5%;
     text-align: center;
@@ -64,4 +74,16 @@ footer {
     border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
+}
+
+.intro {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img {
+    width: 40%;
+    border-radius: 15px;
+    margin-bottom: 70px;
 }
